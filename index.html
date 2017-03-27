@@ -1,0 +1,861 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>shop</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <link href="css/base-media.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="header_top hidden-xs">
+<div class="container">
+    <div class="col-lg-4">
+        新鲜水果欢迎订购！
+        <a href="">会员登录</a>
+        <span>&nbsp;/&nbsp;</span>
+        <a href="">会员注册</a>
+    </div>
+    <div class="col-lg-3 pull-right">
+        <div class="dropdown" style="float: left;">
+            <a href="" data-toggle="dropdown">国家<span class="caret"></span></a>&nbsp;&nbsp;
+            <div class="dropdown-menu country">
+                <a>中国</a>
+                <a>美国</a>
+                <a>英国</a>
+            </div>
+        </div>
+        <a href="" style="float: left;">个人中心</a>
+    </div>
+</div>
+</div>
+<div class=" header_md">
+    <div class="container">
+        <div class="logo col-lg-3 text-center">
+            <img src="image/logo.png">
+        </div>
+        <div class="right col-lg-9 col-xs-12 none-padding">
+            <div class="right_up navbar navbar-default  none-padding " role="navigation">
+                <div class="container-fluid none-padding">
+                    <div class="navbar-header ">
+                        <button type="button" class="navbar-toggle " data-toggle="collapse"
+                                data-target="#example-navbar-collapse">
+                            <span class="sr-only">切换导航</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="nav_Prompt"></a>
+                    </div>
+                    <div class="collapse navbar-collapse none-padding" id="example-navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown" hover="1">
+                                <a class="dropdown-toggle" data-toggle="dropdown">首页<span class="caret"></span><!--图标--></a>
+                                <ul class="dropdown-menu child_menu">
+                                    <li>日用产品大分类日用产品大分类</li>
+                                    <li>产品分类</li>
+                                    <li>产品分类</li>
+                                    <li class="divider"></li>
+                                    <li>产品分类</li>
+                                    <li>产品分类</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown" hover="1">
+                                <a class="dropdown-toggle" data-toggle="dropdown">水果<span class="caret"></span><!--图标--></a>
+                                <ul class="dropdown-menu child_menu">
+                                    <li>产品分类</li>
+                                    <li>产品分类</li>
+                                    <li>产品分类</li>
+                                    <li class="divider"></li>
+                                    <li>产品分类</li>
+                                    <li>产品分类</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown" hover="1">
+                                <a class="dropdown-toggle" data-toggle="dropdown">零食<span class="caret"></span><!--图标--></a>
+                                <ul class="dropdown-menu child_menu">
+                                    <li>产品分类</li>
+                                    <li>产品分类</li>
+                                    <li>产品分类</li>
+                                    <li class="divider"></li>
+                                    <li>产品分类</li>
+                                    <li>产品分类</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="right_down col-xs-12 none-padding">
+                <form action="" class="form-search col-md-8 col-xs-12 none-padding">
+                    <div class="form-group col-md-10 col-xs-10 none-padding ">
+                        <input class="form-control input-lg none-radius" placeholder="请输入关键字">
+                    </div>
+                    <div class="form-group col-md-2 col-xs-2 none-padding ">
+                        <button class="btn btn-lg btn-primary none-radius button-search">
+                            <i class="fa fa-search fa-1x"></i>
+                        </button>
+                    </div>
+                </form>
+                <div class="cart hidden-xs col-lg-3 col-lg-offset-1 text-center col-xs-2"><i class="fa fa-cart-plus"></i>&nbsp;&nbsp;购物车</div>
+            </div>
+        </div>
+        <div class="share-icon hidden-xs">
+            <i class="fa fa-facebook facebook-icon"></i>
+            <i class="fa fa-weibo weibo-icon"></i>
+            <i class="fa fa-weixin weixin-icon"></i>
+            <i class="fa fa-qq qq-icon"></i>
+            <i class="fa fa-user user-icon"></i>
+        </div>
+    </div>
+</div>
+<div class="f0 container">
+    <div class="left col-lg-3 none-padding">
+      <div class="title text-center"><i class="fa fa-bars"></i>导航栏</div>
+      <ul class="left_menu">
+          <li class="dropdown" hover="1">
+              <a class="m_title" data-toggle="dropdown"><span class="fa fa-heart-o"></span><span>水果</span><i class="fa fa-angle-right full-right"></i></a>
+              <div class="main dropdown-menu" >苹果</div>
+          </li>
+          <li class="dropdown" hover="1">
+              <a class="m_title" data-toggle="dropdown"><span class="fa fa-circle-thin"></span><span>零食</span><i class="fa fa-angle-right full-right"></i></a>
+              <div class="main dropdown-menu" >辣条</div>
+          </li>
+          <li class="dropdown" hover="1">
+              <a class="m_title" data-toggle="dropdown"><span class="fa fa-heart-o"></span><span>水果</span><i class="fa fa-angle-right full-right"></i></a>
+              <div class="main dropdown-menu" >苹果</div>
+          </li>
+          <li class="dropdown" hover="1">
+              <a class="m_title" data-toggle="dropdown"><span class="fa fa-circle-thin"></span><span>零食</span><i class="fa fa-angle-right full-right"></i></a>
+              <div class="main dropdown-menu" >辣条</div>
+          </li>
+          <li class="dropdown" hover="1">
+              <a class="m_title" data-toggle="dropdown"><span class="fa fa-heart-o"></span><span>水果</span><i class="fa fa-angle-right full-right"></i></a>
+              <div class="main dropdown-menu" >苹果</div>
+          </li>
+          <li class="dropdown" hover="1">
+              <a class="m_title" data-toggle="dropdown"><span class="fa fa-circle-thin"></span><span>零食</span><i class="fa fa-angle-right full-right"></i></a>
+              <div class="main dropdown-menu" >辣条</div>
+          </li>
+          <li class="dropdown" hover="1">
+              <a class="m_title" data-toggle="dropdown"><span class="fa fa-heart-o"></span><span>水果</span><i class="fa fa-angle-right full-right"></i></a>
+              <div class="main dropdown-menu" >苹果</div>
+          </li>
+          <li class="dropdown" hover="1">
+              <a class="m_title" data-toggle="dropdown"><span class="fa fa-circle-thin"></span><span>零食</span><i class="fa fa-angle-right full-right"></i></a>
+              <div class="main dropdown-menu" >辣条</div>
+          </li>
+          <li class="dropdown" hover="1">
+              <a class="m_title" data-toggle="dropdown"><span class="fa fa-heart-o"></span><span>水果</span><i class="fa fa-angle-right full-right"></i></a>
+              <div class="main dropdown-menu" >苹果</div>
+          </li>
+          <li class="dropdown" hover="1">
+              <a class="m_title" data-toggle="dropdown"><span class="fa fa-circle-thin"></span><span>零食</span><i class="fa fa-angle-right full-right"></i></a>
+              <div class="main dropdown-menu" >辣条</div>
+          </li>
+      </ul>
+    </div>
+    <div class="md col-lg-6">
+        <!--轮播1111111-->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- 轮播（Carousel）指标 -->
+            <ol class="carousel-indicators" style="bottom: -6px;">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <!-- 轮播（Carousel）项目 -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="image/slide_04.jpg">
+                </div>
+                <div class="item" >
+                    <img src="image/slide_05.jpg">
+                </div>
+                <div class="item">
+                    <img src="image/slide_06.jpg">
+                </div>
+            </div>
+            <!-- 轮播（Carousel）导航 -->
+            <div class="control">
+                <a class="carousel-control left control_direction" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+                <a class="carousel-control right control_direction" href="#myCarousel" data-slide="next">&rsaquo;</a>
+            </div>
+        </div>
+        <div class="title">热销产品</div>
+        <!--轮播2-->
+        <div id="myCarousel_2" class="carousel slide" data-ride="carousel">
+            <!-- 轮播（Carousel）项目 -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <ul class="goods-list col-xs-12 tab-pane fade in active" id="tabs_1">
+                        <li class="goods goods_hover col-md-4 col-xs-12">
+                            <p>猕猴桃</p>
+                            <p>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star-half-o"></span>
+                                <span class="fa fa-star-o"></span>
+                            </p>
+                            <p>$9.9</p>
+                            <img class="goods-img" src="image/372-home_default.jpg">
+                            <div class="hover_display">
+                                <p class="text-center cart">立即购买</p>
+                            </div>
+                        </li>
+                        <li class="goods goods_hover col-md-4 col-xs-12">
+                            <p>猕猴桃</p>
+                            <p>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star-half-o"></span>
+                                <span class="fa fa-star-o"></span>
+                            </p>
+                            <p>$9.9</p>
+                            <img class="goods-img" src="image/372-home_default.jpg">
+                            <div class="hover_display">
+                                <p class="text-center cart">立即购买</p>
+                            </div>
+                        </li>
+                        <li class="goods goods_hover col-md-4 col-xs-12">
+                            <p>猕猴桃</p>
+                            <p>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star-half-o"></span>
+                                <span class="fa fa-star-o"></span>
+                            </p>
+                            <p>$9.9</p>
+                            <img class="goods-img" src="image/372-home_default.jpg">
+                            <div class="hover_display">
+                                <p class="text-center cart">立即购买</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="item" >
+                    <ul class="goods-list col-xs-12 tab-pane fade in active" id="tabs_1">
+                        <li class="goods goods_hover col-md-4 col-xs-12">
+                            <p>草莓</p>
+                            <p>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star-half-o"></span>
+                                <span class="fa fa-star-o"></span>
+                            </p>
+                            <p>$9.9</p>
+                            <img class="goods-img" src="image/373.jpg">
+                            <div class="hover_display">
+                                <p class="text-center cart">立即购买</p>
+                            </div>
+                        </li>
+                        <li class="goods goods_hover col-md-4 col-xs-12">
+                            <p>草莓</p>
+                            <p>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star-half-o"></span>
+                                <span class="fa fa-star-o"></span>
+                            </p>
+                            <p>$9.9</p>
+                            <img class="goods-img" src="image/373.jpg">
+                            <div class="hover_display">
+                                <p class="text-center cart">立即购买</p>
+                            </div>
+                        </li>
+                        <li class="goods goods_hover col-md-4 col-xs-12">
+                            <p>草莓</p>
+                            <p>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star-half-o"></span>
+                                <span class="fa fa-star-o"></span>
+                            </p>
+                            <p>$9.9</p>
+                            <img class="goods-img" src="image/373.jpg">
+                            <div class="hover_display">
+                                <p class="text-center cart">立即购买</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 轮播（Carousel）导航 -->
+            <div class="control">
+                <a class="carousel-control left control_direction" href="#myCarousel_2" data-slide="prev">&lsaquo;</a>
+                <a class="carousel-control right control_direction" href="#myCarousel_2" data-slide="next">&rsaquo;</a>
+            </div>
+        </div>
+    </div>
+    <div class="right col-lg-3">
+        <img src="image/banner-slideshow01.jpg">
+        <img src="image/banner-slideshow02.jpg" style="margin-top: 15px">
+    </div>
+  </div>
+<div class="f1 f2 container">
+    <div class="right none-padding col-md-9 col-xs-12">
+        <div class="title none-padding col-md-12 col-xs-12">
+            <h3 class="col-md-8">中国美食</h3>
+            <!--选项卡标题2-->
+            <ul class="menu tab_menu col-md-4 hidden-xs nav nav-tabs">
+                <li class="active"><a  href="#tabs_2_1" data-toggle="tab">南方小吃</a></li>
+                <li><a href="#tabs_2_2" data-toggle="tab">广东美食</a></li>
+            </ul>
+        </div>
+        <!--选项卡内容2-->
+        <div class="tab-content">
+            <ul class="goods-list col-md-8 col-xs-12 tab-pane fade in active" id="tabs_2_1">
+                <li class="goods goods_hover col-md-4 col-xs-12">
+                    <p>猕猴桃</p>
+                    <p>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star-half-o"></span>
+                        <span class="fa fa-star-o"></span>
+                    </p>
+                    <p>$9.9</p>
+                    <img class="goods-img" src="image/372-home_default.jpg">
+                    <div class="hover_display">
+                        <p class="text-center cart">立即购买</p>
+                    </div>
+                </li>
+                <li class="goods goods_hover col-md-4 col-xs-12">
+                    <p>猕猴桃</p>
+                    <p>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star-half-o"></span>
+                        <span class="fa fa-star-o"></span>
+                    </p>
+                    <p>$9.9</p>
+                    <img class="goods-img" src="image/372-home_default.jpg">
+                    <div class="hover_display">
+                        <p class="text-center cart">立即购买</p>
+                    </div>
+                </li>
+                <li class="goods goods_hover col-md-4 col-xs-12">
+                    <p>猕猴桃</p>
+                    <p>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star-half-o"></span>
+                        <span class="fa fa-star-o"></span>
+                    </p>
+                    <p>$9.9</p>
+                    <img class="goods-img" src="image/372-home_default.jpg">
+                    <div class="hover_display">
+                        <p class="text-center cart">立即购买</p>
+                    </div>
+                </li>
+                <li class="goods goods_hover col-md-4 col-xs-12">
+                    <p>猕猴桃</p>
+                    <p>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star-half-o"></span>
+                        <span class="fa fa-star-o"></span>
+                    </p>
+                    <p>$9.9</p>
+                    <img class="goods-img" src="image/372-home_default.jpg">
+                    <div class="hover_display">
+                        <p class="text-center cart">立即购买</p>
+                    </div>
+                </li>
+                <li class="goods goods_hover col-md-4 col-xs-12">
+                    <p>猕猴桃</p>
+                    <p>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star-half-o"></span>
+                        <span class="fa fa-star-o"></span>
+                    </p>
+                    <p>$9.9</p>
+                    <img class="goods-img" src="image/372-home_default.jpg">
+                    <div class="hover_display">
+                        <p class="text-center cart">立即购买</p>
+                    </div>
+                </li>
+                <li class="goods goods_hover col-md-4 col-xs-12">
+                    <p>猕猴桃</p>
+                    <p>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star-half-o"></span>
+                        <span class="fa fa-star-o"></span>
+                    </p>
+                    <p>$9.9</p>
+                    <img class="goods-img" src="image/372-home_default.jpg">
+                    <div class="hover_display">
+                        <p class="text-center cart">立即购买</p>
+                    </div>
+                </li>
+            </ul>
+            <ul class="goods-list col-md-8 col-xs-12 tab-pane fade" id="tabs_2_2">
+                <li class="goods goods_hover col-md-4 col-xs-12">
+                    <p>草莓</p>
+                    <p>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star-half-o"></span>
+                        <span class="fa fa-star-o"></span>
+                    </p>
+                    <p>$9.9</p>
+                    <img class="goods-img" src="image/373.jpg">
+                    <div class="hover_display">
+                        <p class="text-center cart">立即购买</p>
+                    </div>
+                </li>
+                <li class="goods goods_hover col-md-4 col-xs-12">
+                    <p>草莓</p>
+                    <p>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star-half-o"></span>
+                        <span class="fa fa-star-o"></span>
+                    </p>
+                    <p>$9.9</p>
+                    <img class="goods-img" src="image/373.jpg">
+                    <div class="hover_display">
+                        <p class="text-center cart">立即购买</p>
+                    </div>
+                </li>
+                <li class="goods goods_hover col-md-4 col-xs-12">
+                <p>草莓</p>
+                <p>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star-half-o"></span>
+                    <span class="fa fa-star-o"></span>
+                </p>
+                <p>$9.9</p>
+                <img class="goods-img" src="image/373.jpg">
+                <div class="hover_display">
+                    <p class="text-center cart">立即购买</p>
+                </div>
+            </li>
+                <li class="goods goods_hover col-md-4 col-xs-12">
+                <p>草莓</p>
+                <p>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star-half-o"></span>
+                    <span class="fa fa-star-o"></span>
+                </p>
+                <p>$9.9</p>
+                <img class="goods-img" src="image/373.jpg">
+                <div class="hover_display">
+                    <p class="text-center cart">立即购买</p>
+                </div>
+            </li>
+                <li class="goods goods_hover col-md-4 col-xs-12">
+                <p>草莓</p>
+                <p>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star-half-o"></span>
+                    <span class="fa fa-star-o"></span>
+                </p>
+                <p>$9.9</p>
+                <img class="goods-img" src="image/373.jpg">
+                <div class="hover_display">
+                    <p class="text-center cart">立即购买</p>
+                </div>
+            </li>
+                <li class="goods goods_hover col-md-4 col-xs-12">
+                <p>草莓</p>
+                <p>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star-half-o"></span>
+                    <span class="fa fa-star-o"></span>
+                </p>
+                <p>$9.9</p>
+                <img class="goods-img" src="image/373.jpg">
+                <div class="hover_display">
+                    <p class="text-center cart">立即购买</p>
+                </div>
+            </li>
+            </ul>
+        </div>
+        <div class="ad none-padding col-md-4 hidden-xs">
+            <img class="ad-img" src="image/reinsurance-2-1.jpg" style="width: 285px;">
+        </div>
+    </div>
+    <div class="left col-md-3 col-xs-12 none-padding">
+        <div class="title">
+            <h4 class="col-md-8 col-xs-9">热卖产品</h4>
+            <!--轮播4-->
+            <div id="myCarousel_4" class="carousel slide">
+                <!-- 轮播（Carousel）项目 -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <div class="goods-detail">
+                            <div class="goods">
+                                <img src="image/8a85ebf0e7661393025cc349619023cd_478-home_default.jpg">
+                                <div class="text">
+                                    <span>高档水果</span>
+                                </div>
+                            </div>
+                            <div class="goods">
+                                <img src="image/8a85ebf0e7661393025cc349619023cd_478-home_default.jpg">
+                                <div class="text">
+                                    <span>高档水果</span>
+                                </div>
+                            </div>
+                            <div class="goods">
+                                <img src="image/8a85ebf0e7661393025cc349619023cd_478-home_default.jpg">
+                                <div class="text">
+                                    <span>高档水果</span>
+                                </div>
+                            </div>
+                            <div class="goods">
+                                <img src="image/8a85ebf0e7661393025cc349619023cd_478-home_default.jpg">
+                                <div class="text">
+                                    <span>高档水果</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" >
+                        <div class="goods-detail">
+                            <div class="goods">
+                                <img src="image/8a85ebf0e7661393025cc349619023cd_478-home_default.jpg">
+                                <div class="text">
+                                    <span>高档水果</span>
+                                </div>
+                            </div>
+                            <div class="goods">
+                                <img src="image/8a85ebf0e7661393025cc349619023cd_478-home_default.jpg">
+                                <div class="text">
+                                    <span>高档水果</span>
+                                </div>
+                            </div>
+                            <div class="goods">
+                                <img src="image/8a85ebf0e7661393025cc349619023cd_478-home_default.jpg">
+                                <div class="text">
+                                    <span>高档水果</span>
+                                </div>
+                            </div>
+                            <div class="goods">
+                                <img src="image/8a85ebf0e7661393025cc349619023cd_478-home_default.jpg">
+                                <div class="text">
+                                    <span>高档水果</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 轮播（Carousel）导航 -->
+                <div class="direction col-md-4 col-xs-3 text-center">
+                    <a class="prev_left" href="#myCarousel_4" data-slide="prev"><</a>
+                    <a class="next_right" href="#myCarousel_4" data-slide="next">></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="f1 container">
+    <div class="left col-md-3 col-xs-12 none-padding">
+    <div class="title">
+        <h4 class="col-md-8 col-xs-9">新产品</h4>
+        <!--轮播3-->
+        <div id="myCarousel_3" class="carousel slide">
+            <!-- 轮播（Carousel）项目 -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="goods-detail">
+                        <div class="goods">
+                            <img src="image/8a85ebf0e7661393025cc349619023cd_478-home_default.jpg">
+                            <div class="text">
+                                <span>高档水果</span>
+                            </div>
+                        </div>
+                        <div class="goods">
+                            <img src="image/8a85ebf0e7661393025cc349619023cd_478-home_default.jpg">
+                            <div class="text">
+                                <span>高档水果</span>
+                            </div>
+                        </div>
+                        <div class="goods">
+                            <img src="image/8a85ebf0e7661393025cc349619023cd_478-home_default.jpg">
+                            <div class="text">
+                                <span>高档水果</span>
+                            </div>
+                        </div>
+                        <div class="goods">
+                            <img src="image/8a85ebf0e7661393025cc349619023cd_478-home_default.jpg">
+                            <div class="text">
+                                <span>高档水果</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" >
+                    <div class="goods-detail">
+                        <div class="goods">
+                            <img src="image/8a85ebf0e7661393025cc349619023cd_478-home_default.jpg">
+                            <div class="text">
+                                <span>高档水果</span>
+                            </div>
+                        </div>
+                        <div class="goods">
+                            <img src="image/8a85ebf0e7661393025cc349619023cd_478-home_default.jpg">
+                            <div class="text">
+                                <span>高档水果</span>
+                            </div>
+                        </div>
+                        <div class="goods">
+                            <img src="image/8a85ebf0e7661393025cc349619023cd_478-home_default.jpg">
+                            <div class="text">
+                                <span>高档水果</span>
+                            </div>
+                        </div>
+                        <div class="goods">
+                            <img src="image/8a85ebf0e7661393025cc349619023cd_478-home_default.jpg">
+                            <div class="text">
+                                <span>高档水果</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 轮播（Carousel）导航 -->
+            <div class="direction col-md-4 col-xs-3 text-center">
+                <a class="prev_left" href="#myCarousel_3" data-slide="prev"><</a>
+                <a class="next_right" href="#myCarousel_3" data-slide="next">></a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="right none-padding col-md-9 col-xs-12">
+        <div class="title none-padding col-md-12 col-xs-12">
+            <h3 class="col-md-8">新鲜水果</h3>
+            <!--选项卡标题-->
+            <ul class="menu tab_menu col-md-4 hidden-xs nav nav-tabs">
+                <li class="active"><a  href="#tabs_1_1" data-toggle="tab">热带水果</a></li>
+                <li><a href="#tabs_1_2" data-toggle="tab">亚热带水果</a></li>
+            </ul>
+        </div>
+        <div class="ad none-padding col-md-4 hidden-xs">
+            <img class="ad-img" src="image/reinsurance-2-1.jpg">
+        </div>
+        <!--选项卡内容-->
+       <div class="tab-content">
+           <ul class="goods-list col-md-8 col-xs-12 tab-pane fade in active" id="tabs_1_1">
+               <li class="goods goods_hover col-md-4 col-xs-12">
+                   <p>猕猴桃</p>
+                   <p>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star-half-o"></span>
+                       <span class="fa fa-star-o"></span>
+                   </p>
+                   <p>$9.9</p>
+                   <img class="goods-img" src="image/372-home_default.jpg">
+                   <div class="hover_display">
+                       <p class="text-center cart">立即购买</p>
+                   </div>
+               </li>
+               <li class="goods goods_hover col-md-4 col-xs-12">
+                   <p>猕猴桃</p>
+                   <p>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star-half-o"></span>
+                       <span class="fa fa-star-o"></span>
+                   </p>
+                   <p>$9.9</p>
+                   <img class="goods-img" src="image/372-home_default.jpg">
+                   <div class="hover_display">
+                       <p class="text-center cart">立即购买</p>
+                   </div>
+               </li>
+               <li class="goods goods_hover col-md-4 col-xs-12">
+                   <p>猕猴桃</p>
+                   <p>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star-half-o"></span>
+                       <span class="fa fa-star-o"></span>
+                   </p>
+                   <p>$9.9</p>
+                   <img class="goods-img" src="image/372-home_default.jpg">
+                   <div class="hover_display">
+                       <p class="text-center cart">立即购买</p>
+                   </div>
+               </li>
+               <li class="goods goods_hover col-md-4 col-xs-12">
+                   <p>猕猴桃</p>
+                   <p>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star-half-o"></span>
+                       <span class="fa fa-star-o"></span>
+                   </p>
+                   <p>$9.9</p>
+                   <img class="goods-img" src="image/372-home_default.jpg">
+                   <div class="hover_display">
+                       <p class="text-center cart">立即购买</p>
+                   </div>
+               </li>
+               <li class="goods goods_hover col-md-4 col-xs-12">
+                   <p>猕猴桃</p>
+                   <p>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star-half-o"></span>
+                       <span class="fa fa-star-o"></span>
+                   </p>
+                   <p>$9.9</p>
+                   <img class="goods-img" src="image/372-home_default.jpg">
+                   <div class="hover_display">
+                       <p class="text-center cart">立即购买</p>
+                   </div>
+               </li>
+               <li class="goods goods_hover col-md-4 col-xs-12">
+                   <p>猕猴桃</p>
+                   <p>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star-half-o"></span>
+                       <span class="fa fa-star-o"></span>
+                   </p>
+                   <p>$9.9</p>
+                   <img class="goods-img" src="image/372-home_default.jpg">
+                   <div class="hover_display">
+                       <p class="text-center cart">立即购买</p>
+                   </div>
+               </li>
+           </ul>
+           <ul class="goods-list col-md-8 col-xs-12 tab-pane fade" id="tabs_1_2">
+               <li class="goods goods_hover col-md-4 col-xs-12">
+                   <p>草莓</p>
+                   <p>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star-half-o"></span>
+                       <span class="fa fa-star-o"></span>
+                   </p>
+                   <p>$9.9</p>
+                   <img class="goods-img" src="image/373.jpg">
+                   <div class="hover_display">
+                       <p class="text-center cart">立即购买</p>
+                   </div>
+               </li>
+               <li class="goods goods_hover col-md-4 col-xs-12">
+                   <p>草莓</p>
+                   <p>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star-half-o"></span>
+                       <span class="fa fa-star-o"></span>
+                   </p>
+                   <p>$9.9</p>
+                   <img class="goods-img" src="image/373.jpg">
+                   <div class="hover_display">
+                       <p class="text-center cart">立即购买</p>
+                   </div>
+               </li>
+               <li class="goods goods_hover col-md-4 col-xs-12">
+                   <p>草莓</p>
+                   <p>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star-half-o"></span>
+                       <span class="fa fa-star-o"></span>
+                   </p>
+                   <p>$9.9</p>
+                   <img class="goods-img" src="image/373.jpg">
+                   <div class="hover_display">
+                       <p class="text-center cart">立即购买</p>
+                   </div>
+               </li>
+               <li class="goods goods_hover col-md-4 col-xs-12">
+                   <p>草莓</p>
+                   <p>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star-half-o"></span>
+                       <span class="fa fa-star-o"></span>
+                   </p>
+                   <p>$9.9</p>
+                   <img class="goods-img" src="image/373.jpg">
+                   <div class="hover_display">
+                       <p class="text-center cart">立即购买</p>
+                   </div>
+               </li>
+               <li class="goods goods_hover col-md-4 col-xs-12">
+                   <p>草莓</p>
+                   <p>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star-half-o"></span>
+                       <span class="fa fa-star-o"></span>
+                   </p>
+                   <p>$9.9</p>
+                   <img class="goods-img" src="image/373.jpg">
+                   <div class="hover_display">
+                       <p class="text-center cart">立即购买</p>
+                   </div>
+               </li>
+               <li class="goods goods_hover col-md-4 col-xs-12">
+                   <p>草莓</p>
+                   <p>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star-half-o"></span>
+                       <span class="fa fa-star-o"></span>
+                   </p>
+                   <p>$9.9</p>
+                   <img class="goods-img" src="image/373.jpg">
+                   <div class="hover_display">
+                       <p class="text-center cart">立即购买</p>
+                   </div>
+               </li>
+           </ul>
+       </div>
+    </div>
+</div>
+<script rel="stylesheet" src="js/jquery-3.1.1.min.js"></script>
+<script rel="stylesheet" src="js/bootstrap.min.js"></script>
+<script rel="stylesheet" src="js/base.js"></script>
+</body>
+</html>

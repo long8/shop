@@ -1,0 +1,202 @@
+
+.f0{
+    margin-bottom: 30px;
+    background-color:#fff;
+    padding: 15px;
+}
+.f0 .left .title{
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    font-size:18px;
+    line-height: 50px;
+    letter-spacing:5px;
+    background-color: #f8694d;
+}
+.f0 .left .left_menu{
+    padding: 0px;
+    position: relative;
+}
+.f0 .left .left_menu>li{
+    position: static;
+}
+.f0 .left .left_menu>li .m_title{
+    width: 100%;
+    height:59px;
+    display: block;
+    font-size:14px;
+    background-color: #444;
+    color: #fff;
+    border-bottom:1px solid #666;
+    padding: 0px 10px;
+    cursor:pointer;
+}
+.f0 .left .left_menu>li .m_title span,.f0 .left .left_menu>li .m_title i{
+    height: 59px;
+    line-height:59px;
+    margin-left: 10px;
+    display: block;
+    float: left;
+}
+.f0 .left .left_menu>li .m_title i{
+    float: right;
+}
+.f0 .left .left_menu>li .m_title:hover{
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.5) inset;
+}
+.f0 .left .left_menu>li .main{
+    width: 800px;
+    height: 594px;
+    position: absolute;
+    left: 100%;
+    top:0px;
+    border-radius: 0;
+    padding: 50px;
+    text-align: center;
+    font-size: 100px;
+}
+.f0 .md{
+    overflow: hidden;
+}
+.control_direction{
+    background: transparent !important;
+}
+.f0 .md #myCarousel{
+    width:576px;
+    height:406px;
+    position: relative;
+}
+.f0 .md #myCarousel .control{
+    height: 406px;
+    line-height: 406px;
+    font-size: 50px;
+    opacity: 0;
+}
+.f0 .md #myCarousel:hover .control{
+    opacity: 1;
+}
+.f0 .md #myCarousel .control a{
+    font-size: 40px;
+}
+.control a:first-child{
+    left: -20px;
+}
+.f0 .md .title{
+    margin-top: 15px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    width: 555px;
+    color: #fff;
+    background: #6CC062;
+}
+.f0 .md #myCarousel_2{
+    width:576px;
+    height:222px;
+}
+.f0 .md #myCarousel_2 .control .control_direction{
+    margin-top:-30px !important;
+}
+.f0 .md .goods-list .goods+.goods{
+    border-left: 1px solid #dedede;
+}
+.f0 .md .goods-list .goods p{
+    margin-top: 10px;
+}
+.f0 .md .goods-list .goods p span{
+    color: #f8694d;
+}
+.f0 .md .goods-list .goods .goods-img{
+    width: 80%;
+}
+.f0 .right{
+    overflow: hidden;
+}
+.f1{
+    margin-bottom: 30px;
+    background-color:#fff;
+    padding: 15px;
+}
+.f1 .left .title{
+    height: 60px;
+    background-color: #f8694d;
+    position: relative;
+}
+.f1 .left .title h4{
+    font-weight: bold;
+    color: #fff;
+    padding:0px  0px  0px  10px ;
+    margin:0px !important;
+    line-height: 60px;
+}
+.f1 .left .title .direction{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.f1 .left .title .direction a{
+    border: 1px solid #fff;
+    color: #fff;
+    padding:1px 4px;
+    margin-right: 3px;
+    line-height: 60px;
+}
+.f1 .left .goods-detail .goods{
+    border-bottom: 1px solid #dedede;
+    overflow: hidden;
+}
+.f1 .left .goods-detail .goods:last-child{
+    border-bottom:0px;
+}
+.f1 .left .goods-detail .goods img{
+    width: 40%;
+    float: left;
+    margin: 17px 0px;
+}
+.f1 .left .goods-detail .goods .text{
+    float: left;
+    width: 60%;
+    margin: 20px 0px;
+}
+.f1 .right .title{
+    height: 60px;
+}
+.f1 .right .title h3{
+    color: #f8694d;
+    font-weight: bold;
+}
+.tab_menu,.f1 .right .title .tab_menu>li.active>a{
+    border:none;
+    color:#f8694d ;
+}
+.f1 .right .title .tab_menu>li>a{
+    height: 60px;
+    line-height: 60px;
+    margin: 0px 10px 0px 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+.f1 .right .title .tab_menu>li>a:hover{
+    margin: 0px 10px 0px 0px;
+    padding: 0px;
+    border:none;
+    background: transparent;
+}
+.f1 .right .title .menu a{
+    line-height: 60px;
+    margin: 5px;
+    font-size:12px;
+    color: #666;
+}
+.f1 .right .goods-list .goods{
+    margin: 20px 0px;
+}
+.f1 .right .goods-list .goods p{
+    margin-top: 10px;
+}
+.f1 .right .goods-list .goods p span{
+    color: #f8694d;
+}
+.f1 .right .goods-list .goods .goods-img{
+    width: 80%;
+}
